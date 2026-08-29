@@ -2,7 +2,8 @@
 
 Reimplementation of the Agilent ChemStation / OpenLab CDS "TwelveTone"
 integrator, built from Agilent's published algorithm documentation and
-validated against real OpenLab CDS 2.8 output from Idan's GC-HSS1 (FID).
+validated against real OpenLab CDS 2.8 output from an Agilent 8900 HSS-GC-FID
+ (Headapace delivered via valve&loop sampler - Agilent 7697A)).
 
 ## Status (2026-08-10)
 
@@ -29,7 +30,7 @@ python -m csint FILE --ss 1000 --pw 0.1 --hr 1.7 --ar 1 \
        --png overlay.png --json peaks.json
 ```
 
-FILE: .csv, .h5, .abf, ANDI .cdf, Agilent .ch, or a .D directory.
+FILE FORMATS: .csv, .h5, .abf, ANDI .cdf, Agilent .ch, or a .D directory.
 Parameters mirror ChemStation: --ss slope sensitivity (units/min),
 --pw initial peak width (min), --hr height reject, --ar area reject (units·s).
 
