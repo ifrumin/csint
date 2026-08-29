@@ -2,7 +2,7 @@
 
 Reimplementation of the Agilent ChemStation / OpenLab CDS "TwelveTone"
 integrator, built from Agilent's published algorithm documentation and
-validated against real OpenLab CDS 2.8 output from Idan's GC-HSS1 (FID).
+validated against real OpenLab CDS 2.8 output from an Agilent 8900 GC-FID (headspace sampled)).
 
 ## Status (2026-08-10)
 
